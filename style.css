@@ -1,0 +1,287 @@
+body {
+    width:750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ===== HEADER ===== */
+.logo{
+    width: 225px;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+
+}
+
+header {
+    border-top: solid 2px #5d310c;
+}
+header img {
+    width: 10%;
+    margin-top: 10px;
+}
+
+/* ==== Item Info =====*/
+.item-info {
+    background-color: #eeeeee;
+    padding: 5px 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    
+}
+.item-info h3 {
+padding-top: 0px;
+margin-top: 0px;
+}
+
+/* ===== About SUGA Drip Coffee ===== */
+.beans-pic img {
+    width: 100%;
+}
+
+.img-maiko img {
+    width: 100%;
+}
+
+.v_line_left {
+    border-left: 10px solid #5d310c;
+    padding-left: 10px;
+}
+
+.item-line h3 {
+    margin-top: 40px;
+}
+
+.dripbag-pic {
+    width: 500px;
+    height: 400px;
+}
+
+/* ===== Slider =====*/
+.slider img {
+    width: 300px;
+    margin: 30px auto;
+}
+
+.slider {
+    /* スライドを表示させる画面の横幅 スライド１枚あたりの横幅 */
+    width: 300px;
+    /* スライドを表示させる画面の縦幅　スライド１枚あたりの縦幅 */
+    height: 300px;
+    /* はみ出した要素は隠れるようにする */
+    overflow: hidden;
+}
+
+.slider_container {
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style: none;
+    position: relative;
+}
+
+.slider_item {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+.coffee-pic {
+    width: 500px;
+    height: 500px;
+    margin: 5px;
+    position: center;
+}
+
+.Brz {
+    margin-bottom: -10px;
+}
+
+.drip-p1 { 
+    margin-top:0px;
+    padding-bottom: 20px;
+}
+
+.drip-p2 {
+    padding-bottom: 20px;
+
+} 
+
+/* ===== Christmas Edition ===== */
+.sugasuga_story {
+   width: 30%;
+}
+
+
+/* ===== Maiko Introduction ===== */
+
+.maiko-prof {
+    float: left;
+    margin: 0 20px 10px 0;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.maiko-intro {
+    margin: 100px 0 100px 0;
+    border-bottom: 2px solid #5d310c;
+    padding-bottom: 35px;
+}
+
+.maiko-intro p{
+    font-size: 15px;
+    overflow: hidden;
+}
+
+/* ===== last pic =====*/
+.last-pic {
+    padding-bottom: 30px;
+}
+
+.shelf-pic img {
+    width: 100%;
+}
+
+.beans-pic2 img {
+    width: 100%;
+
+}
+
+
+/*===== FOOTER ===== */
+.footer {
+    position: relative;
+    padding: 5px 30px;
+    background-color: #5d310c ;
+    color: #fff;
+}
+.footer img {
+    position: absolute;
+    text-align: right;
+    top: 25px;
+    right: 5%;
+    width: 15%;
+}
+
+.btn-wrapper {
+    padding: 5px 5px;
+    margin-top: 0px;
+    text-align: left;
+    margin-right: 0px;
+    
+}
+.copy-write {
+    font-size: 5px;
+}
+
+.facebook {
+    color: white;
+    padding: 5px 5px;
+    font-size: 20px;
+    display: inline-block;
+    
+}
+
+.fa-facebook {
+    letter-spacing: 0px;
+    margin: 5px;
+    font-size: 25px;
+    text-align: center;  
+}
+
+.instagram {
+    color: white;
+    padding: 5px 0px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+.fa-instagram {
+    letter-spacing: 0px;
+    margin: 5px;
+    font-size: 25px;
+
+    
+}
+
+.suga-title {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+}
+
+.hp {
+    color: #fff;
+}
+
+/* ===== Sugasuga Mori =====*/
+.goto_sugaBag {
+    width: 20%;
+}
+
+
+
+@media screen and (min-width:368px) and (max-width: 765px) {
+    body {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .dripbag-pic {
+        width: 300px;
+        height: 300px;
+    }
+
+    .footer table {
+        font-size: 12px;
+    }
+    .footer a {
+        font-size: 12px;
+    }
+    .footer p {
+        font-size: 12px;
+    }
+
+    .sugasuga_story {
+        width: 300px;
+    }
+
+    /* ===== SUGASUGA ===== */
+    .goto_sugaBag{
+        width: 300px;
+    }
+
+    .slider img {
+        width: 300px;
+        margin: 30px auto;
+    }
+    
+    .slider {
+        /* スライドを表示させる画面の横幅 スライド１枚あたりの横幅 */
+        width: 300px;
+        /* スライドを表示させる画面の縦幅　スライド１枚あたりの縦幅 */
+        height: 300px;
+        /* はみ出した要素は隠れるようにする */
+        overflow: hidden ;
+    }
+    
+    .slider_container {
+        padding: 0px;
+        margin-top: 5px;
+        overflow: hidden;
+        list-style: none;
+        position: relative;
+    }
+    
+    .slider_item {
+        width: 300px;
+        height: 200px;
+        float: left;
+    }
+
+  
+    }
+
+
